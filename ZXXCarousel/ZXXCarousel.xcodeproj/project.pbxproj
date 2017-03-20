@@ -14,6 +14,11 @@
 		840C557B1E78DF3A00BB36A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C55791E78DF3A00BB36A5 /* LaunchScreen.storyboard */; };
 		840C55861E78DF3A00BB36A5 /* ZXXCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C55851E78DF3A00BB36A5 /* ZXXCarouselTests.swift */; };
 		840C55911E78DF3A00BB36A5 /* ZXXCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C55901E78DF3A00BB36A5 /* ZXXCarouselUITests.swift */; };
+		8462B6951E7F790B00CE5C09 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462B6941E7F790B00CE5C09 /* CarouselView.swift */; };
+		8462B6971E7F853E00CE5C09 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462B6961E7F853E00CE5C09 /* CarouselCollectionViewCell.swift */; };
+		8462B6991E7F883800CE5C09 /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462B6981E7F883800CE5C09 /* CarouselModel.swift */; };
+		8462B69B1E7FAD4400CE5C09 /* placehold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8462B69A1E7FAD4400CE5C09 /* placehold.jpg */; };
+		A3960ECB9F4F9BEB7752C90B /* Pods_ZXXCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24B3B53DC0B145012386F1C /* Pods_ZXXCarousel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2FC359D135E9C52150E916 /* Pods-ZXXCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXXCarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXXCarousel/Pods-ZXXCarousel.release.xcconfig"; sourceTree = "<group>"; };
 		840C556D1E78DF3A00BB36A5 /* ZXXCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXXCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C55701E78DF3A00BB36A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840C55721E78DF3A00BB36A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		840C558C1E78DF3A00BB36A5 /* ZXXCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXXCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C55901E78DF3A00BB36A5 /* ZXXCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXXCarouselUITests.swift; sourceTree = "<group>"; };
 		840C55921E78DF3A00BB36A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8462B6941E7F790B00CE5C09 /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		8462B6961E7F853E00CE5C09 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		8462B6981E7F883800CE5C09 /* CarouselModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		8462B69A1E7FAD4400CE5C09 /* placehold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placehold.jpg; sourceTree = "<group>"; };
+		A24B3B53DC0B145012386F1C /* Pods_ZXXCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXXCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93DF75EBE6DE8B87ACEBCAB /* Pods-ZXXCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXXCarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXXCarousel/Pods-ZXXCarousel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3960ECB9F4F9BEB7752C90B /* Pods_ZXXCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E07A4BB9D8C7953093D8610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24B3B53DC0B145012386F1C /* Pods_ZXXCarousel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		840C55641E78DF3A00BB36A5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,8 @@
 				840C55841E78DF3A00BB36A5 /* ZXXCarouselTests */,
 				840C558F1E78DF3A00BB36A5 /* ZXXCarouselUITests */,
 				840C556E1E78DF3A00BB36A5 /* Products */,
+				CE1EDB590C387D782F28733B /* Pods */,
+				5E07A4BB9D8C7953093D8610 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +122,11 @@
 			children = (
 				840C55701E78DF3A00BB36A5 /* AppDelegate.swift */,
 				840C55721E78DF3A00BB36A5 /* ViewController.swift */,
+				8462B6941E7F790B00CE5C09 /* CarouselView.swift */,
+				8462B6961E7F853E00CE5C09 /* CarouselCollectionViewCell.swift */,
+				8462B6981E7F883800CE5C09 /* CarouselModel.swift */,
 				840C55741E78DF3A00BB36A5 /* Main.storyboard */,
+				8462B69A1E7FAD4400CE5C09 /* placehold.jpg */,
 				840C55771E78DF3A00BB36A5 /* Assets.xcassets */,
 				840C55791E78DF3A00BB36A5 /* LaunchScreen.storyboard */,
 				840C557C1E78DF3A00BB36A5 /* Info.plist */,
@@ -125,6 +152,15 @@
 			path = ZXXCarouselUITests;
 			sourceTree = "<group>";
 		};
+		CE1EDB590C387D782F28733B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B93DF75EBE6DE8B87ACEBCAB /* Pods-ZXXCarousel.debug.xcconfig */,
+				1B2FC359D135E9C52150E916 /* Pods-ZXXCarousel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840C55951E78DF3A00BB36A5 /* Build configuration list for PBXNativeTarget "ZXXCarousel" */;
 			buildPhases = (
+				861856CDE89977191C3B5F94 /* [CP] Check Pods Manifest.lock */,
 				840C55691E78DF3A00BB36A5 /* Sources */,
 				840C556A1E78DF3A00BB36A5 /* Frameworks */,
 				840C556B1E78DF3A00BB36A5 /* Resources */,
+				90A1D2766B43A27AD693FEF7 /* [CP] Embed Pods Frameworks */,
+				B68E4F5F848AD94D9497BD78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840C557B1E78DF3A00BB36A5 /* LaunchScreen.storyboard in Resources */,
+				8462B69B1E7FAD4400CE5C09 /* placehold.jpg in Resources */,
 				840C55781E78DF3A00BB36A5 /* Assets.xcassets in Resources */,
 				840C55761E78DF3A00BB36A5 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +297,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		861856CDE89977191C3B5F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90A1D2766B43A27AD693FEF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXXCarousel/Pods-ZXXCarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68E4F5F848AD94D9497BD78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXXCarousel/Pods-ZXXCarousel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840C55691E78DF3A00BB36A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8462B6991E7F883800CE5C09 /* CarouselModel.swift in Sources */,
+				8462B6971E7F853E00CE5C09 /* CarouselCollectionViewCell.swift in Sources */,
 				840C55731E78DF3A00BB36A5 /* ViewController.swift in Sources */,
+				8462B6951E7F790B00CE5C09 /* CarouselView.swift in Sources */,
 				840C55711E78DF3A00BB36A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +504,7 @@
 		};
 		840C55961E78DF3A00BB36A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93DF75EBE6DE8B87ACEBCAB /* Pods-ZXXCarousel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3966VA87CB;
@@ -426,6 +518,7 @@
 		};
 		840C55971E78DF3A00BB36A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2FC359D135E9C52150E916 /* Pods-ZXXCarousel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3966VA87CB;
@@ -514,6 +607,7 @@
 				840C55971E78DF3A00BB36A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840C55981E78DF3A00BB36A5 /* Build configuration list for PBXNativeTarget "ZXXCarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +616,7 @@
 				840C559A1E78DF3A00BB36A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840C559B1E78DF3A00BB36A5 /* Build configuration list for PBXNativeTarget "ZXXCarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +625,7 @@
 				840C559D1E78DF3A00BB36A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
