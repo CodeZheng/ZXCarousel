@@ -10,8 +10,9 @@ import UIKit
 import AFNetworking
 
 class ViewController: UIViewController {
-
-    let carouselView = CarouselView(Y: 64, H: 200)
+    
+//    let carouselView = CarouselView(Y: 64, H: 200)//需要毛玻璃效果时Y为64
+    let carouselView = CarouselView(Y: 0, H: 200)//不需要毛玻璃效果时Y，为0。
 
     var modelArr = [CarouselModel]()
     
@@ -31,6 +32,8 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func setupUI() {
+//        self.automaticallyAdjustsScrollViewInsets = false//需要毛玻璃效果时设置（是否根据所在界面的navigationbar与tabbar的高度，自动调整scrollview的inset.默认是true）
+        self.navigationController?.navigationBar.isTranslucent = false//不需要毛玻璃效果时设置
         self.view.addSubview(carouselView)
     }
     
